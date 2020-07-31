@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--
 **ArrayKnight/ArrayKnight** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +12,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## Hi 🖐
+
+I'm Ray, a Senior Frontend Architect, currecntly working @ [GenUI](https://www.genui.com/) in Seattle, WA, USA.
+
+### Connect 🛸
+
+You can find me on [🧰 StackOverflow](https://stackoverflow.com/story/arrayknight) and [✏️ Medium](https://medium.com/@arrayknight)
+
+### Black Lives Matter [✌🏿](https://blacklivesmatter.com/)
