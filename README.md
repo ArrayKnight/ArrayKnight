@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 
 ## Hi 🖐
 
-I'm Ray, a Senior Frontend Architect, currecntly working @ [GenUI](https://www.genui.com/) in Seattle, WA, USA.
+I'm Ray, a Senior Frontend Architect, currently working @ [GenUI](https://www.genui.com/) in Seattle, WA, USA.
 
 ### Connect 🛸
 
