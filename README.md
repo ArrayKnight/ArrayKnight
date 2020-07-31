@@ -21,4 +21,4 @@ I'm Ray, a Senior Frontend Architect, currently working @ [GenUI](https://www.ge
 
 You can find me on [🧰 StackOverflow](https://stackoverflow.com/story/arrayknight) and [✏️ Medium](https://medium.com/@arrayknight)
 
-### Black Lives Matter [✌🏿](https://blacklivesmatter.com/)
+### [Black Lives Matter ✌🏿](https://blacklivesmatter.com/)
