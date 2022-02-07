@@ -1,0 +1,53 @@
+{
+    "private": false,
+    "name": "arrayknight",
+    "description": "Profile and resume",
+    "scripts": {
+        "build": "remix build",
+        "commit": "git add -i && npx git-cz",
+        "dev": "remix dev",
+        "postinstall": "remix setup node",
+        "update": "npm-check --update"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged",
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+            "post-commit": "git push -u origin $(git rev-parse --abbrev-ref HEAD)"
+        }
+    },
+    "lint-staged": {
+        "**/*.{ts,tsx,json,md}": [
+            "prettier --write"
+        ]
+    },
+    "commitlint": {
+        "extends": [
+            "@commitlint/config-conventional"
+        ]
+    },
+    "dependencies": {
+        "@remix-run/react": "^1.1.3",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "remix": "^1.1.3",
+        "@remix-run/serve": "^1.1.3",
+        "@remix-run/vercel": "^1.1.3"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^16.1.0",
+        "@commitlint/config-conventional": "^16.0.0",
+        "@remix-run/dev": "^1.1.3",
+        "@types/react": "^17.0.24",
+        "@types/react-dom": "^17.0.9",
+        "husky": "^7.0.4",
+        "lint-staged": "^12.3.3",
+        "npm-check": "^5.9.2",
+        "prettier": "^2.5.1",
+        "typescript": "^4.1.2"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "sideEffects": false
+}
