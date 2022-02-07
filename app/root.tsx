@@ -8,6 +8,8 @@ import {
 } from 'remix'
 import type { MetaFunction } from 'remix'
 
+import { IS_DEV, IS_SERVER, STYLES_PLACEHOLDER } from '~/common'
+
 export const meta: MetaFunction = () => {
     return { title: 'New Remix App' }
 }
@@ -23,12 +25,13 @@ export default function App() {
                 />
                 <Meta />
                 <Links />
+                {IS_SERVER ? STYLES_PLACEHOLDER : null}
             </head>
             <body>
                 <Outlet />
                 <ScrollRestoration />
                 <Scripts />
-                {process.env.NODE_ENV === 'development' && <LiveReload />}
+                {IS_DEV && <LiveReload />}
             </body>
         </html>
     )
