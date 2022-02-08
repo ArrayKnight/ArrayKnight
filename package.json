@@ -3,9 +3,6 @@
     "sideEffects": false,
     "name": "arrayknight",
     "description": "Profile and resume",
-    "engines": {
-        "node": ">=16"
-    },
     "scripts": {
         "build": "remix build",
         "commit": "git add -i && npx git-cz",
