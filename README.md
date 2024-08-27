@@ -12,9 +12,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-### Follow Along 🛸
-
-You can find me on [🧰 StackOverflow](https://stackoverflow.com/story/arrayknight) and [✏️ Medium](https://medium.com/@arrayknight)
-
-# [Black Lives Matter ✊🏿](https://blacklivesmatter.com/)
